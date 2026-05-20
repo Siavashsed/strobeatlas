@@ -1007,6 +1007,34 @@ body::before{
 }
 .floor-room.r-main{background:rgba(255,43,214,.12);color:var(--magenta);border-color:var(--magenta)}
 .floor-room.r-side{background:rgba(198,255,58,.08);color:var(--acid);border-color:var(--acid)}
+
+/* CONTRAST-AUDIT v1 */
+/* Article-page-only contrast guard. body[data-page-depth="1"] is stamped on
+   every article by layout_shell.wrap_page. Homepage (depth=0) is untouched. */
+body[data-page-depth="1"] h1,
+body[data-page-depth="1"] h2,
+body[data-page-depth="1"] h3,
+body[data-page-depth="1"] .art-title,
+body[data-page-depth="1"] .article-title,
+body[data-page-depth="1"] .mag-hero h1,
+body[data-page-depth="1"] .imm-hero h1,
+body[data-page-depth="1"] article h1,
+body[data-page-depth="1"] article h2,
+body[data-page-depth="1"] article h3{color:#ffffff !important}
+body[data-page-depth="1"] article p,
+body[data-page-depth="1"] article li,
+body[data-page-depth="1"] .art-body p,
+body[data-page-depth="1"] .mag-body p,
+body[data-page-depth="1"] .imm-body p,
+body[data-page-depth="1"] article .intro,
+body[data-page-depth="1"] article .concl,
+body[data-page-depth="1"] article strong{color:#e6e6e6 !important}
+body[data-page-depth="1"] article a,
+body[data-page-depth="1"] article p a,
+body[data-page-depth="1"] article .intro a{color:#ff2bd6 !important;text-decoration:underline;text-underline-offset:3px}
+/* /CONTRAST-AUDIT */
+/* page */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 /* page */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 /* page */
@@ -1218,7 +1246,7 @@ body::before{
     }).catch(function(){allComments=[];rerender();});
   }
 })();
-</script></article></article></article></article></article></article>
+</script></article></article></article></article></article></article></article>
 <footer class="footer">
   <div class="footer-grid">
     <div class="footer-col">
