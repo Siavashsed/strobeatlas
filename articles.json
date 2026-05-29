@@ -38,5 +38,43 @@
     "category": "Halloween",
     "image": "https://images.unsplash.com/photo-1574391884720-bbc3740c59d1?w=1600&q=85",
     "meta_description": "Three cities have turned halloween from one chaotic night into a programmed week with its own sound, its own bookings, and its own economics. The differences between them say more than any of them would on their own."
+  },
+  {
+    "title": "The UK Martyn's Law Finally Passed: What It Actually Means for Club Nights in 2023",
+    "slug": "martyns-law-uk-nightlife-2023",
+    "meta_description": "Martyn's Law passed in 2023, reshaping UK nightlife security forever. Here's what it means for club promoters, venue owners, and ravers right now.",
+    "date": "June 24, 2023",
+    "date_iso": "2023-06-24",
+    "author": "Riv Solano",
+    "image": "https://images.pexels.com/photos/15324180/pexels-photo-15324180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "gov.uk",
+      "nighttime.org"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Berlin's Club Commission Won a Major Battle in 2019 and the Whole Industry Should Pay Attention",
+    "slug": "berlin-club-culture-protection-2019",
+    "meta_description": "In 2019, Berlin's Club Commission secured cultural venue status for nightclubs. Here's what it meant for nightlife rights worldwide.",
+    "date": "March 18, 2019",
+    "date_iso": "2019-03-18",
+    "author": "Riv Solano",
+    "image": "https://images.pexels.com/photos/15634076/pexels-photo-15634076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "bbc.com",
+      "theguardian.com",
+      "clubcommission.de",
+      "gov.uk"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
