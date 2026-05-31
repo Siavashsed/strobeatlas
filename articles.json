@@ -114,5 +114,44 @@
       "en"
     ],
     "category": "Techno & Raves"
+  },
+  {
+    "title": "Afterparties Are Where the Night Actually Lives - Here's How to Do Them Right",
+    "slug": "afterparties-nightlife-guide",
+    "meta_description": "Afterparties aren't just a bonus round. They're the real heart of nightlife. Here's what separates a legendary one from a miserable crash.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Riv Solano",
+    "image": "https://images.pexels.com/photos/6173843/pexels-photo-6173843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "sciencedirect.com",
+      "journals.sagepub.com",
+      "cdc.gov",
+      "globaldrugsurvey.com"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the UK's Night Time Economy Got Its Own Minister in 2021 - And Why It Actually Mattered",
+    "slug": "uk-night-time-economy-adviser-2021",
+    "meta_description": "In 2021, the UK appointed a Night Time Economy Adviser and invested millions in clubs. Here's what that meant for nightlife's survival.",
+    "date": "May 27, 2021",
+    "date_iso": "2021-05-27",
+    "author": "Riv Solano",
+    "image": "https://images.pexels.com/photos/6583637/pexels-photo-6583637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nighttime.org",
+      "artscouncil.org.uk",
+      "musicvenue.org.uk",
+      "gov.uk"
+    ],
+    "posted_iso": "2026-05-31",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
