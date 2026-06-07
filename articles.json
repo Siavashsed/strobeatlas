@@ -155,5 +155,44 @@
       "en"
     ],
     "category": "Techno & Raves"
+  },
+  {
+    "title": "Best Rooftop Bars for Sunset Cocktails and Night Views: What Actually Makes Them Worth It",
+    "slug": "best-rooftop-bars-sunset-cocktails",
+    "meta_description": "The best rooftop bars for sunset cocktails aren't just about height. Here's what separates a great experience from an overpriced disappointment.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Riv Solano",
+    "image": "https://images.pexels.com/photos/28647413/pexels-photo-28647413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "timeanddate.com",
+      "statista.com",
+      "ncbi.nlm.nih.gov",
+      "forbes.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Berlin's Club Commission Won Its Biggest Fight in 2019: Why That Reclassification Changed Everything",
+    "slug": "berlin-clubs-cultural-venues-2019",
+    "meta_description": "In 2019, Berlin officially reclassified clubs as cultural venues. Here's what that meant for nightlife worldwide and why it still matters.",
+    "date": "June 21, 2019",
+    "date_iso": "2019-06-21",
+    "author": "Riv Solano",
+    "image": "https://images.pexels.com/photos/26764761/pexels-photo-26764761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "clubcommission.de",
+      "nighttime.org",
+      "visitberlin.de",
+      "ons.gov.uk"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
