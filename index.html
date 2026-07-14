@@ -74,8 +74,7 @@ body::before{
   letter-spacing:.14em;text-transform:uppercase;
 }
 .marquee-track span{display:inline-flex;align-items:center;gap:10px}
-.marquee-track .dot{width:6px;height:6px;background:var(--jet);border-radius:50%}
-@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee-track .dot{width:6px;height:6px;background:var(--jet);border-radius:50%}@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* === nav === */
 .nav{
@@ -115,8 +114,7 @@ body::before{
   width:8px;height:8px;border-radius:50%;background:var(--magenta);
   box-shadow:0 0 0 0 rgba(255,43,214,.7);
   animation:pulse 1.4s infinite;
-}
-@keyframes pulse{
+}@keyframes pulse{
   0%{box-shadow:0 0 0 0 rgba(255,43,214,.7)}
   70%{box-shadow:0 0 0 12px rgba(255,43,214,0)}
   100%{box-shadow:0 0 0 0 rgba(255,43,214,0)}
@@ -127,8 +125,7 @@ body::before{
   background:var(--acid);padding:9px 16px;border-radius:2px;
   transition:transform .2s;
 }
-.nav-cta:hover{transform:translateY(-1px)}
-@media(max-width:860px){
+.nav-cta:hover{transform:translateY(-1px)}@media(max-width:860px){
   .nav{padding:12px 18px}
   .nav-links .nav-link{display:none}
   .nav-links{gap:14px}
@@ -189,8 +186,7 @@ body::before{
 #particles{
   position:absolute;top:60px;right:0;width:38vw;height:520px;
   z-index:-1;opacity:.6;pointer-events:none;
-}
-@media(max-width:900px){#particles{display:none}}
+}@media(max-width:900px){#particles{display:none}}
 
 /* === stat bar === */
 .stats{
@@ -214,8 +210,7 @@ body::before{
   padding-top:10px;
   border-top:2px solid var(--acid);
   display:inline-block;
-}
-@media(max-width:900px){
+}@media(max-width:900px){
   .stats{grid-template-columns:repeat(2,1fr)}
   .stat .n{font-size:36px}
 }
@@ -249,8 +244,7 @@ body::before{
   opacity:0;transition:opacity .35s;
   filter:blur(6px);
 }
-.recap:hover::before{opacity:.55;animation:hue 4s linear infinite}
-@keyframes hue{0%{filter:hue-rotate(0deg) blur(6px)}100%{filter:hue-rotate(360deg) blur(6px)}}
+.recap:hover::before{opacity:.55;animation:hue 4s linear infinite}@keyframes hue{0%{filter:hue-rotate(0deg) blur(6px)}100%{filter:hue-rotate(360deg) blur(6px)}}
 .recap-inner{position:relative;z-index:1;background:var(--card)}
 .recap .cover{position:relative;height:300px;overflow:hidden}
 .recap .cover img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}
@@ -276,8 +270,7 @@ body::before{
   font-family:var(--mono);font-size:11px;font-weight:700;
   letter-spacing:.16em;text-transform:uppercase;color:var(--magenta);
 }
-.recap-link:hover{color:var(--acid)}
-@media(max-width:980px){.recaps{grid-template-columns:1fr;gap:18px}}
+.recap-link:hover{color:var(--acid)}@media(max-width:980px){.recaps{grid-template-columns:1fr;gap:18px}}
 
 /* === tools === */
 .tools{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
@@ -320,8 +313,7 @@ body::before{
   color:var(--magenta);text-align:center;margin:14px 0 4px;
   text-shadow:0 0 16px rgba(255,43,214,.4);
 }
-.bpm-display.flash{animation:strobe .12s}
-@keyframes strobe{0%,100%{color:var(--magenta)}50%{color:var(--white)}}
+.bpm-display.flash{animation:strobe .12s}@keyframes strobe{0%,100%{color:var(--magenta)}50%{color:var(--white)}}
 .bpm-class{
   text-align:center;font-family:var(--mono);font-size:11px;
   letter-spacing:.16em;text-transform:uppercase;color:var(--acid);
@@ -415,9 +407,7 @@ body::before{
 .split-toggle{
   display:flex;align-items:center;gap:10px;margin-top:14px;
   font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);
-}
-
-@media(max-width:780px){
+}@media(max-width:780px){
   .tools{grid-template-columns:1fr}
   .split-grid{grid-template-columns:1fr 1fr}
   .fit-grid{grid-template-columns:1fr}
@@ -448,9 +438,7 @@ body::before{
   font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--acid);margin-top:8px;display:block;
 }
-.scene-info .arrow{color:var(--magenta);font-family:var(--mono);font-size:18px}
-@media(max-width:900px){.scenes{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.scenes{grid-template-columns:1fr}}
+.scene-info .arrow{color:var(--magenta);font-family:var(--mono);font-size:18px}@media(max-width:900px){.scenes{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.scenes{grid-template-columns:1fr}}
 
 /* === archive === */
 #archive-list{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--hair)}
@@ -484,8 +472,7 @@ body::before{
   padding:60px 0;text-align:center;
   font-family:var(--mono);font-size:12px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--dim);
-}
-@media(max-width:780px){
+}@media(max-width:780px){
   .arc-row{grid-template-columns:1fr;gap:12px}
   .arc-thumb{width:100%;height:160px}
 }
@@ -516,8 +503,7 @@ body::before{
   display:inline-block;font-family:var(--mono);font-size:10px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--magenta);
   border:1px solid var(--hair);padding:6px 10px;
-}
-@media(max-width:880px){.crew{grid-template-columns:1fr;gap:16px}}
+}@media(max-width:880px){.crew{grid-template-columns:1fr;gap:16px}}
 
 /* === deck FAQ === */
 .deck{display:grid;grid-template-columns:1fr 1fr;gap:20px}
@@ -546,8 +532,7 @@ body::before{
 .deck-item[open] .deck-plus{transform:rotate(45deg);color:var(--acid)}
 .deck-a{
   font-size:14px;color:var(--paper);line-height:1.65;padding-top:14px;
-}
-@media(max-width:780px){.deck{grid-template-columns:1fr}}
+}@media(max-width:780px){.deck{grid-template-columns:1fr}}
 
 /* === newsletter === */
 .news{
@@ -618,17 +603,14 @@ body::before{
   font-family:var(--display);font-size:22px;text-transform:uppercase;
   color:var(--dim);letter-spacing:.04em;
 }
-.foot-marquee-track .ac{color:var(--magenta)}
-@media(max-width:980px){
+.foot-marquee-track .ac{color:var(--magenta)}@media(max-width:980px){
   .footer-grid{grid-template-columns:1fr 1fr;gap:24px}
   .footer-grid > .footer-col + .footer-col{border-left:0;padding-left:0}
 }
 
 /* reveal */
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s var(--ease), transform .8s var(--ease)}
-.reveal.in{opacity:1;transform:none}
-
-@media(prefers-reduced-motion:reduce){
+.reveal.in{opacity:1;transform:none}@media(prefers-reduced-motion:reduce){
   .marquee-track, .foot-marquee-track{animation:none}
   .hero h1 .rot.flash{filter:none;opacity:1}
   .recap::before, .news::before{animation:none}
@@ -690,8 +672,7 @@ body::before{
   font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--dim);
 }
-.dispatch-byline b{color:var(--magenta)}
-@media(max-width:880px){.dispatch{grid-template-columns:1fr}}
+.dispatch-byline b{color:var(--magenta)}@media(max-width:880px){.dispatch{grid-template-columns:1fr}}
 
 /* === BRIEFING (news stack) === */
 .briefing{
@@ -715,8 +696,7 @@ body::before{
 .brief-item .place{
   font-family:var(--mono);font-size:10px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--acid);
-}
-@media(max-width:880px){
+}@media(max-width:880px){
   .briefing{grid-template-columns:1fr}
   .brief-item{border-right:0;border-bottom:1px solid var(--hair)}
   .brief-item:last-child{border-bottom:0}
@@ -756,8 +736,7 @@ body::before{
   font-family:var(--mono);font-size:11px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--acid);margin-bottom:8px;
 }
-.iv-a{font-size:15px;color:var(--paper);line-height:1.6}
-@media(max-width:780px){.interview{grid-template-columns:1fr}}
+.iv-a{font-size:15px;color:var(--paper);line-height:1.6}@media(max-width:780px){.interview{grid-template-columns:1fr}}
 
 /* === ANATOMY OF A SET === */
 .anatomy{
@@ -788,8 +767,7 @@ body::before{
 .anatomy td.title{color:var(--white);font-family:var(--sans);font-weight:500;font-size:14px}
 .anatomy td.bpm{color:var(--acid);text-align:right;width:60px}
 .anatomy td.label{color:var(--dim);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
-.anatomy td.note{color:var(--paper);font-family:var(--sans);font-size:13px;line-height:1.5}
-@media(max-width:780px){
+.anatomy td.note{color:var(--paper);font-family:var(--sans);font-size:13px;line-height:1.5}@media(max-width:780px){
   .anatomy th.lbl, .anatomy td.label{display:none}
 }
 
@@ -821,9 +799,7 @@ body::before{
 }
 .lineup-card .ll-foot .px{color:var(--magenta)}
 .lineup-card .ll-foot .wc{color:var(--acid);display:inline-flex;align-items:center;gap:6px}
-.lineup-card .ll-foot .wc::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--acid);animation:pulse 1.6s infinite}
-@media(max-width:980px){.lineup{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.lineup{grid-template-columns:1fr}}
+.lineup-card .ll-foot .wc::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--acid);animation:pulse 1.6s infinite}@media(max-width:980px){.lineup{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.lineup{grid-template-columns:1fr}}
 
 /* === FIELD NOTES === */
 .fnotes{
@@ -890,8 +866,7 @@ body::before{
 }
 .ssr-grade .gx .sc{
   font-family:var(--display);font-size:28px;color:var(--magenta);line-height:1;
-}
-@media(max-width:780px){.ssr{grid-template-columns:1fr}.ssr-grade{grid-template-columns:repeat(5,1fr);gap:4px}.ssr-grade .gx .sc{font-size:20px}}
+}@media(max-width:780px){.ssr{grid-template-columns:1fr}.ssr-grade{grid-template-columns:repeat(5,1fr);gap:4px}.ssr-grade .gx .sc{font-size:20px}}
 
 /* === NEW TOOLS === */
 .quiz-prompt{
@@ -951,8 +926,7 @@ body::before{
 .check-ping{
   position:absolute;width:6px;height:6px;border-radius:50%;background:var(--acid);
   pointer-events:none;animation:pingOut .6s ease-out forwards;
-}
-@keyframes pingOut{
+}@keyframes pingOut{
   0%{opacity:1;transform:scale(1)}
   100%{opacity:0;transform:scale(6)}
 }
@@ -961,8 +935,7 @@ body::before{
   font-family:var(--display);font-size:22px;text-transform:uppercase;text-align:center;
   letter-spacing:.02em;display:none;
 }
-.check-ready.on{display:block}
-@media(max-width:600px){.check-grid{grid-template-columns:1fr}}
+.check-ready.on{display:block}@media(max-width:600px){.check-grid{grid-template-columns:1fr}}
 
 .near-grid{display:flex;flex-direction:column;gap:10px;margin-top:14px}
 .near-card{
@@ -1067,9 +1040,6 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
 </style>
 </head>
 <body>
-<!--SHELL:ACCENT:#ff2bd6-->
-<!--SHELL:HEADER-->
-
 <div class="marquee" aria-hidden="true">
   <div class="marquee-track">
     <span>NEXT UP</span><span class="dot"></span>
@@ -1100,8 +1070,6 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
     <a href="./#newsletter" class="nav-cta">Join</a>
   </div>
 </nav>
-<!--/SHELL:HEADER-->
-
 <!-- HERO -->
 <section class="hero" id="hero">
   <div class="hero-grid" aria-hidden="true"></div>
@@ -1164,7 +1132,7 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
       <div class="recap-inner">
         <div class="cover">
           <span class="num">01</span>
-          <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1600&q=85" alt="Sublimation 04 warehouse">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1600&q=85" alt="Sublimation 04 warehouse">
         </div>
         <div class="recap-body">
           <h3>Sublimation 04</h3>
@@ -1179,7 +1147,7 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
       <div class="recap-inner">
         <div class="cover">
           <span class="num">02</span>
-          <img src="https://images.unsplash.com/photo-1574391884720-bbc3740c59d1?w=1600&q=85" alt="Helloween Vortex Mexico City">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1574391884720-bbc3740c59d1?w=1600&q=85" alt="Helloween Vortex Mexico City">
         </div>
         <div class="recap-body">
           <h3>Helloween Vortex</h3>
@@ -1194,7 +1162,7 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
       <div class="recap-inner">
         <div class="cover">
           <span class="num">03</span>
-          <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1600&q=85" alt="Velvet Quad Cambridge ball">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1600&q=85" alt="Velvet Quad Cambridge ball">
         </div>
         <div class="recap-body">
           <h3>Velvet Quad</h3>
@@ -1608,27 +1576,27 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
   </div>
   <div class="scenes">
     <a class="scene" href="./recaps#sublimation04">
-      <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=85" alt="Berlin">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=85" alt="Berlin">
       <div class="scene-info"><div><h4>Berlin</h4><span class="s">47 nights / 18 venues</span></div><span class="arrow">-></span></div>
     </a>
     <a class="scene" href="./recaps#velvetquad">
-      <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=85" alt="London">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=85" alt="London">
       <div class="scene-info"><div><h4>London</h4><span class="s">38 nights / 22 venues</span></div><span class="arrow">-></span></div>
     </a>
     <a class="scene" href="./recaps#helloweenvortex">
-      <img src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=85" alt="Mexico City">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=85" alt="Mexico City">
       <div class="scene-info"><div><h4>Mexico City</h4><span class="s">29 nights / 14 venues</span></div><span class="arrow">-></span></div>
     </a>
     <a class="scene" href="./recaps">
-      <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=85" alt="New York">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=85" alt="New York">
       <div class="scene-info"><div><h4>New York</h4><span class="s">41 nights / 19 venues</span></div><span class="arrow">-></span></div>
     </a>
     <a class="scene" href="./recaps">
-      <img src="https://images.unsplash.com/photo-1554072675-66db59dba46f?w=1200&q=85" alt="Tbilisi">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1554072675-66db59dba46f?w=1200&q=85" alt="Tbilisi">
       <div class="scene-info"><div><h4>Tbilisi</h4><span class="s">17 nights / 6 venues</span></div><span class="arrow">-></span></div>
     </a>
     <a class="scene" href="./recaps">
-      <img src="https://images.unsplash.com/photo-1545044846-351ba102b6d5?w=1200&q=85" alt="Melbourne">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1545044846-351ba102b6d5?w=1200&q=85" alt="Melbourne">
       <div class="scene-info"><div><h4>Melbourne</h4><span class="s">22 nights / 11 venues</span></div><span class="arrow">-></span></div>
     </a>
   </div>
@@ -1651,21 +1619,21 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
   </div>
   <div class="crew">
     <div class="crew-card">
-      <div class="crew-portrait"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=85" alt="Riv Solano"></div>
+      <div class="crew-portrait"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=85" alt="Riv Solano"></div>
       <h4>Riv Solano</h4>
       <div class="role">Party Correspondent / Lead</div>
       <p>Berlin based, raised between Madrid and Mexico City. Eight years in the booth before flipping the notebook to the dancefloor. Files most of the long reads.</p>
       <span class="crew-tag">Last: Sublimation 04 / Berlin</span>
     </div>
     <div class="crew-card">
-      <div class="crew-portrait"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=85" alt="Yuki Marlowe"></div>
+      <div class="crew-portrait"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=85" alt="Yuki Marlowe"></div>
       <h4>Yuki Marlowe</h4>
       <div class="role">Scenes Editor / Asia Pacific</div>
       <p>Tokyo to Melbourne to Seoul. Used to throw illegal warehouses in Shibuya. Now writes for us with the same energy and twice the precision.</p>
       <span class="crew-tag">Last: Warehouse 19 / Melbourne</span>
     </div>
     <div class="crew-card">
-      <div class="crew-portrait"><img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&q=85" alt="Adeola Brent"></div>
+      <div class="crew-portrait"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&q=85" alt="Adeola Brent"></div>
       <h4>Adeola Brent</h4>
       <div class="role">University Nights / UK + US</div>
       <p>Cambridge alum, NYU MFA. Covers the strange in-between of student formals that turn into 5am warehouse missions. Holds the receipts.</p>
@@ -1707,7 +1675,6 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
 
 
 
-<!--SHELL:FOOTER-->
 <!-- THE FULL CATALOGUE section removed per request. -->
 <footer class="footer">
   <div class="footer-grid">
@@ -1758,8 +1725,6 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
     </div>
   </div>
 </footer>
-<!--/SHELL:FOOTER-->
-
 <script>
 (function(){
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -2043,7 +2008,7 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#ff2bd6) !important;
         const img = a.image || '';
         const note = (a.excerpt || a.description || '').slice(0,180);
         const fb = "this.onerror=null;this.src='https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=80'";
-        return '<div class="arc-row"><div class="arc-meta">'+date+'<b>'+venue+'</b></div><div class="arc-body"><h4>'+a.title+'</h4><p>'+note+'</p></div><div class="arc-thumb">'+(img?'<img src="'+img+'" alt="" onerror="'+fb+'">':'')+'</div></div>';
+        return '<div class="arc-row"><div class="arc-meta">'+date+'<b>'+venue+'</b></div><div class="arc-body"><h4>'+a.title+'</h4><p>'+note+'</p></div><div class="arc-thumb">'+(img?'<img loading="lazy" decoding="async" src="'+img+'" alt="" onerror="'+fb+'">':'')+'</div></div>';
       }).join('');
     }catch(err){
       list.innerHTML = '<div class="arc-empty">Field reports loading / nothing filed yet</div>';
